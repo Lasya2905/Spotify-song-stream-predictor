@@ -1,10 +1,10 @@
 # Spotify-song-stream-predictor
 
-## Theory
+## 🤖 Theory
 This project is about predicting how many streams a song might get on Spotify using its audio features. We use a dataset that contains information about various songs, including their danceability, energy, tempo, and more. These features are used to train a machine learning model that can predict the number of streams for a song.
 The main aim of the project is to build a model that learns from existing song data and helps estimate how popular (in terms of streams) a song could be.
 
-## Technologies Used
+## 🚀 Technologies Used
 Python (programming language)
 
 Pandas (for data handling)
@@ -15,7 +15,7 @@ Scikit-learn (for machine learning)
 
 Matplotlib (for graph plotting)
 
-## What This Project Does
+## 📦 What This Project Does
 Loads a dataset of Spotify songs with various audio features
 Cleans and processes the data
 Splits the data into training and testing sets
@@ -29,7 +29,7 @@ R² Score (to check model accuracy)
 Plots a graph of Actual vs Predicted Streams
 Gives a prediction for one random song as a sample result
 
-## Steps of the Project
+## 🖥 Steps of the Project
 Import all required libraries
 
 Load the dataset (spotify-2023.csv)
@@ -50,7 +50,7 @@ Plot a graph showing actual vs predicted stream values
 
 Show a sample prediction result for one song
 
-## Output & Visuals
+## 🧠 Output & Visuals
 Actual vs Predicted Streams graph: shows how close the predictions are to real values
 
 Evaluation Scores:
@@ -63,5 +63,5 @@ R² Score: How well the model explains the data (closer to 1 = better)
 Sample Prediction:
 For a randomly picked song, the model shows the estimated streams and compares it with actual streams
 
-## Conclusion
+## 🛠 Conclusion
 This project shows how machine learning can be used to predict the popularity of a song based on its audio features. It helps in understanding which song traits might lead to more streams and is a great beginner-friendly project for learning about data analysis and regression models.
